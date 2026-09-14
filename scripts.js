@@ -12,3 +12,11 @@ decreaseButton.addEventListener("click",
         counterDisplay.textContent = counter
     }
 )
+
+increaseButton.addEventListener("click",
+    () => {
+        counter ++;
+        counterDisplay.textContent = counter
+        
+    }
+)
