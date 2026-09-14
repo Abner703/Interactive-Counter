@@ -20,3 +20,11 @@ increaseButton.addEventListener("click",
         
     }
 )
+
+resetButton.addEventListener("click",
+    () => {
+        counter = 0;
+        counterDisplay.textContent = counter
+
+    }
+)
